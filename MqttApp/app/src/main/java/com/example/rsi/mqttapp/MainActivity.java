@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
         builder.setContentTitle(topic);
         builder.setContentText(messageString);
         builder.setWhen(when);
-        builder.setLights(0xFFFFFF,5000,5000);
+        //builder.setLights(0xFFFFFF,5000,5000);
         builder.setTicker(ticker);
 
         Intent intent = new Intent(this, Notify.class);
